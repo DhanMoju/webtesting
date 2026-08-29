@@ -32,7 +32,9 @@ export default defineConfig(({ mode }) => {
     server: {
       host: '0.0.0.0',
       port: parseInt(process.env.PORT || '8443'),
-      strictPort: true,
+      // Allow Vite to select the next available port when the managed preview
+      // port is already occupied by another preview process.
+      strictPort: false,
       watch: { ignored: ['**/.figma/**'] },
     },
     preview: {
