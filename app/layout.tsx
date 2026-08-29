@@ -11,21 +11,9 @@ export const metadata: Metadata = {
   description: 'MFY Consulting Ltd delivers integrated oil & gas engineering, procurement, construction, commissioning and technical support services from Abuja, Nigeria.',
   generator: 'MFY Consulting Ltd',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+    icon: '/mfy-logo.png',
+    shortcut: '/mfy-logo.png',
+    apple: '/mfy-logo.png',
   },
 }
 
