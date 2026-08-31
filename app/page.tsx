@@ -1,10 +1,10 @@
 'use client'
 
 import { useState } from 'react'
-import { ArrowUpRight, ChevronDown, Menu, X, ShieldCheck, Compass, Cog, Truck, HardHat, Wrench, CheckCircle2, MapPin, Mail, Phone } from 'lucide-react'
+import { ArrowUpRight, ChevronDown, Menu, X, ShieldCheck, Cog, Truck, HardHat, Wrench, CheckCircle2, MapPin, Mail, Phone } from 'lucide-react'
 
 const services = [
-  { icon: Compass, index: '01', title: 'Engineering & Design', copy: 'Front-end engineering, detailed design and technical studies for safe, efficient facilities.', items: ['Conceptual & FEED studies', 'Process, mechanical & civil design', 'Piping, electrical & instrumentation', 'Brownfield modification design'] },
+  { icon: Cog, index: '01', title: 'Engineering & Design', copy: 'Front-end engineering, detailed design and technical studies for safe, efficient facilities.', items: ['Conceptual & FEED studies', 'Process, mechanical & civil design', 'Piping, electrical & instrumentation', 'Brownfield modification design'] },
   { icon: Cog, index: '02', title: 'Project Management', copy: 'Disciplined project controls that keep complex work aligned from definition through delivery.', items: ['Project planning & controls', 'Cost, schedule & risk management', 'Contract administration', 'Interface & stakeholder management'] },
   { icon: Truck, index: '03', title: 'Procurement & Supply', copy: 'Reliable sourcing and expediting of critical equipment, materials and specialist services.', items: ['Equipment & materials sourcing', 'Vendor prequalification', 'Inspection & expediting', 'Logistics & inventory coordination'] },
   { icon: HardHat, index: '04', title: 'Construction & Installation', copy: 'Site-ready execution with a focus on constructability, quality and operational continuity.', items: ['Civil, structural & mechanical works', 'Piping fabrication & installation', 'Electrical & instrumentation', 'Site supervision & QA/QC'] },
